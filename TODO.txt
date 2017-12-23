@@ -1,0 +1,67 @@
+Introduce middle layer of REST API
+-name
+-special
+-make asynchronous
+
+Layer (service)
+consolidates data
+
+Layer (data)
+stores data separately
+
+Actor Layer (faux IO)
+Add Actors to data layer for lookups
+
+
+======================================
+TestHttpClient
+======================================
+
+DONE    draw JSON from a text file
+DONE    send JSON in and HTTP Post to the StudyController
+DONE    get logger working here in isolation, using a different file output
+
+======================================
+StudyController
+======================================
+DONE    draw JSON from a text file
+DONE    send JSON in and HTTP Post to the StudyController
+DONE    read JSON from the text file
+
+write some clean-up scripts of the output files or log files?
+2017-11-20
+Get some work on Futures completed
+
+2017-11-18
+DONE    Complete Name data model
+DONE    Complete reading and writing JSON objects
+DONE     Add Telephone data model
+
+2017-11-13
+DONE    would it be wise to use the SBT application layout?  Maven and SBT
+DONE    learned more about SBT
+DONE    got logger working properly
+
+======================================
+Futures and Promises
+======================================
+
+2017-12-04
+DONE    futures
+DONE        registration class to test when they have completed
+DONE        handle RuntimeExceptions that occur
+
+DONE    composition of data from multiple futures without blocking (use a promise)
+
+@volatile
+
+DONE    how to return with futures (perhaps not possible?)
+check this in context of web application
+
+DONE    role of promises when using futures
+
+======================================
+
+======================================
+
+

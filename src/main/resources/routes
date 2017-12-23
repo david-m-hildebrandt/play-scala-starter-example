@@ -1,0 +1,36 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET         /                                    controllers.HomeController.index
+# An example controller showing how to use dependency injection
+GET         /count                               controllers.CountController.count
+# An example controller showing how to write asynchronous code
+GET         /message                             controllers.AsyncController.message
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                        controllers.Assets.versioned(path="/public", file: Asset)
+
+# Explore requests
+GET         /study/showGetRequest                controllers.StudyController.showGetRequest
+
+# Explore requests
+POST        /study/showPostRequest               controllers.StudyController.showPostRequest
+
+# Explore requests
+POST        /study/name                          controllers.ContactInformationController.postRequestName
+POST        /study/telephoneNumbers              controllers.ContactInformationController.postRequestTelephoneNumbers
+POST        /study/nameTelephoneNumbers          controllers.ContactInformationController.postRequestNameTelephoneNumbers
+
+#POST        /study/service/name                  controllers.ContactInformationController.postRequestNameService
+
+# Service requests
+POST        /service/name                        controllers.service.ContactInformationServiceController.postRequestName
+POST        /service/telephoneNumbers            controllers.service.ContactInformationServiceController.postRequestTelephoneNumbers
+POST        /service/nameTelephoneNumbers        controllers.service.ContactInformationServiceController.postRequestNameTelephoneNumbers
+
+# Data requests
+POST        /data/name                        controllers.data.ContactInformationDataController.postRequestName
+POST        /data/telephoneNumbers            controllers.data.ContactInformationDataController.postRequestTelephoneNumbers
+POST        /data/nameTelephoneNumbers        controllers.data.ContactInformationDataController.postRequestNameTelephoneNumbers

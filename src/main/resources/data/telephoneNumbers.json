@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "telephoneNumber": {
+        "areaCode": 416,
+        "localExchange": 465,
+        "lineNumber": 9715
+      }
+    },
+    {
+      "id": 2,
+      "telephoneNumber": {
+        "areaCode": 647,
+        "localExchange": 300,
+        "lineNumber": 9715
+      }
+    },
+    {
+      "id": 3,
+      "telephoneNumber": {
+        "areaCode": 647,
+        "localExchange":229,
+        "lineNumber": 9205
+      }
+    },
+    {
+      "id": 4,
+      "telephoneNumber": {
+        "areaCode": 647,
+        "localExchange":636,
+        "lineNumber": 3488
+      }
+    }
+  ]
+}

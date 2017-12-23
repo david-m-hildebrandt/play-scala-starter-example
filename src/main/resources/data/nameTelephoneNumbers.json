@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "nameId": 1,
+      "telephoneNumberIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "nameId": 2,
+      "telephoneNumberIds": [
+        1,
+        3
+      ]
+    },
+    {
+      "nameId": 3,
+      "telephoneNumberIds": [
+        1,
+        4
+      ]
+    }
+  ]
+}
